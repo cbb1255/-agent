@@ -28,8 +28,11 @@ Copy-Item -LiteralPath backend/.env.example -Destination backend/.env
 
 已有 Python 环境的 Linux 或 macOS 用户也可安装相同依赖后执行 `python start_fusion.py`。接口文档位于 
 
-<img width="2541" height="1353" alt="夸克截图_2026-11-19_13-36-04" src="https://github.com/user-attachments/assets/9971968b-cc39-4657-9f8e-6ac7708ac9e6" />
+<img width="2541" height="1353" alt="夸克截图_2026-11-19_13-36-04" src="https://github.com/user-attachments/assets/e8dd984a-1d0a-4c95-847b-faf71914a330" />
 
+<img width="2557" height="1324" alt="夸克截图_2026-11-19_13-37-23" src="https://github.com/user-attachments/assets/be5be9a8-a092-4d16-a5f3-a35534927326" />
+<img width="2555" height="1326" alt="夸克截图_2026-11-19_13-36-46" src="https://github.com/user-attachments/assets/19d30adb-16bc-44b4-a9b9-825f7365cf9b" />
+<img width="2542" height="1313" alt="夸克截图_2026-11-19_13-36-32" src="https://github.com/user-attachments/assets/e6aee60e-0582-4b26-bd9f-7770f5f6df2e" />
 
 ## 导入第一份笔记
 
@@ -50,7 +53,6 @@ Copy-Item -LiteralPath backend/.env.example -Destination backend/.env
 
 服务默认只监听 `127.0.0.1`，面向本机单用户。索引目录的上一级保存应用访问令牌和 SQLite 学习记录。本机页面自动获取应用访问令牌。DeepSeek API Key 只在后端配置。真实 `.env`、个人笔记、索引和数据库由本机保存，已加入 Git 忽略规则。
 
-![夸克截图\_2026-11-19\_13-36-32.png](<>)
 
 ## 项目结构
 
