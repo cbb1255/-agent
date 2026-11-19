@@ -28,15 +28,8 @@ Copy-Item -LiteralPath backend/.env.example -Destination backend/.env
 
 已有 Python 环境的 Linux 或 macOS 用户也可安装相同依赖后执行 `python start_fusion.py`。接口文档位于 
 
-![夸克截图\_2026-11-19\_13-37-23.png](<file:///C:/Users/Lenovo/Downloads/%E5%A4%B8%E5%85%8B%E6%88%AA%E5%9B%BE_2026-11-19_13-37-23.png>)
+<img width="2541" height="1353" alt="夸克截图_2026-11-19_13-36-04" src="https://github.com/user-attachments/assets/9971968b-cc39-4657-9f8e-6ac7708ac9e6" />
 
-![夸克截图\_2026-11-19\_13-36-04.png](<file:///C:/Users/Lenovo/Downloads/%E5%A4%B8%E5%85%8B%E6%88%AA%E5%9B%BE_2026-11-19_13-36-04.png>)
-
-![夸克截图\_2026-11-19\_13-36-32.png](<file:///C:/Users/Lenovo/Downloads/%E5%A4%B8%E5%85%8B%E6%88%AA%E5%9B%BE_2026-11-19_13-36-32.png>)
-
-![夸克截图\_2026-11-19\_13-36-46.png](<file:///C:/Users/Lenovo/Downloads/%E5%A4%B8%E5%85%8B%E6%88%AA%E5%9B%BE_2026-11-19_13-36-46.png>)
-
-> 
 
 ## 导入第一份笔记
 
