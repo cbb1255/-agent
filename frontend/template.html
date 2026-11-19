@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#EDEBE6">
+  <meta name="description" content="个人知识库融合演示。VHS 文档书架、检索问答、学习与复习。">
+  <title>个人知识库 · 纸上档案</title>
+  <link rel="icon" href="data:,">
+  <style>/* EMBED_FONTS */</style>
+  <style>/* EMBED_STYLES */</style>
+</head>
+<body tabindex="-1">
+  <main id="experience">
+    <header class="topbar">
+      <button class="box lbl import-shortcut" type="button"><span class="desktop-label">导入 Markdown 笔记</span><span class="mobile-label">导入笔记</span><span aria-hidden="true">＋</span></button>
+      <div class="logo" aria-label="个人知识库"><span class="logo-chinese">个人知识库</span><span class="logo-latin">PERSONAL KNOWLEDGE BASE</span></div>
+      <span class="demo-status lbl">LOCAL DEMO / 本地演示</span>
+    </header>
+    <nav class="decades" aria-label="知识库导航">
+      <span class="decade-indicator" aria-hidden="true"></span>
+      <button class="decade lbl" type="button" data-pane="learning">问答与学习</button>
+      <button class="decade lbl" type="button" data-pane="documents" aria-current="page">文档</button>
+      <button class="decade lbl" type="button" data-pane="reviews">复习</button>
+      <button class="decade lbl" type="button" data-pane="progress">进度</button>
+      <button class="decade lbl" type="button" data-pane="settings">连接设置</button>
+    </nav>
+    <section class="shelf" aria-label="文档书架" aria-describedby="shelf-help">
+      <p class="sr-only" id="shelf-help">使用左右方向键、滚轮或拖拽浏览文档。点击书脊选中文档，点击正面封面或按 Enter 阅读原文。</p>
+      <div class="stage"></div>
+      <div class="shelf-empty" hidden><p>书架等待新的笔记。</p><button class="box lbl import-shortcut" type="button">导入 Markdown 笔记 ＋</button></div>
+    </section>
+    <button class="play" type="button" aria-label="阅读当前文档"><span class="play-triangle" aria-hidden="true"></span></button>
+    <div class="caption" aria-live="polite" aria-atomic="true">
+      <div class="caption-mask caption-title"><span>混合检索与RRF重排</span></div>
+      <div class="caption-mask caption-subtitle lbl"><span>RAG / HYBRID RETRIEVAL</span></div>
+      <div class="caption-mask caption-year"><span>MARKDOWN / 5 分钟</span></div>
+    </div>
+    <button class="arrow arrow-prev" type="button" aria-label="上一篇文档"><svg viewBox="0 0 18 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M5 1 1 5 5 9M1 5H17"/></svg></button>
+    <button class="arrow arrow-next" type="button" aria-label="下一篇文档"><svg viewBox="0 0 18 10" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="m13 1 4 4-4 4M17 5H1"/></svg></button>
+    <footer class="footer lbl"><span id="library-status">12 份文档 / 本地演示</span><div class="footer-actions"><button class="footer-action" type="button" id="new-session-shortcut">新建会话 ↗</button><span aria-hidden="true">/</span><button class="footer-action" type="button" data-open="reviews">到期复习</button></div></footer>
+  </main>
+  <div class="grain" aria-hidden="true"></div>
+  <section class="sheet" role="dialog" aria-modal="true" aria-label="知识库工作台" aria-hidden="true" tabindex="-1">
+    <header class="sheet-header"><button class="close box lbl" type="button">关闭 / CLOSE</button><div class="logo"><span class="logo-chinese">个人知识库</span><span class="logo-latin">PERSONAL KNOWLEDGE BASE</span></div><button class="sheet-home box lbl" type="button">文档书架 ↗</button></header>
+    <nav class="sheet-nav" aria-label="工作台导航"><button type="button" data-pane="learning">问答与学习</button><button type="button" data-pane="documents">文档</button><button type="button" data-pane="reviews">复习</button><button type="button" data-pane="progress">进度</button><button type="button" data-pane="settings">连接设置</button></nav>
+    <div class="sheet-scroll"><div id="sheet-content"></div><footer class="sheet-foot lbl"><span>PERSONAL KNOWLEDGE BASE</span><span>本地演示 / DEMO</span></footer></div>
+  </section>
+  <div class="toast" role="status" aria-live="polite"><span></span></div>
+  <div class="cursor" aria-hidden="true"><div class="cursor-ring"></div><div class="cursor-dot"></div><div class="cursor-label"><span>READ</span><span>阅读</span></div></div>
+  <script>/* EMBED_DATA */</script>
+  <script>/* EMBED_API */</script>
+  <script>/* EMBED_HISTORY */</script>
+  <script>/* EMBED_WORKBENCH */</script>
+  <script>/* EMBED_SHELF */</script>
+</body>
+</html>

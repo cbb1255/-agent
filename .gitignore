@@ -1,0 +1,33 @@
+# Credentials and machine-local config
+.env
+.env.*
+!.env.example
+.envrc
+mcp.json
+access_token
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local notes, indexes, media models and learning records
+/backend/data/
+/backend/storage/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Dependencies, caches and logs
+.venv/
+.venv-media/
+.cache-media/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+pytest-of-*/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
